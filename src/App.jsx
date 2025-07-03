@@ -40,7 +40,7 @@ const App = () => {
     <Container className="my-5 text-center">
       <h1 className="text-center mb-4">Trivia Time Don't Run Away!</h1>
       <Button variant="primary" className="mb-4" onClick={fetchTrivia}>
-        Refresh Questions
+        New Questions!
       </Button>
       {loading ? (
         <div className="text-center">
